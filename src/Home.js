@@ -54,44 +54,43 @@ function Home() {
         <div className="quote">
           <p>"Health Cannot be a question of income , it is a fundamental human right"<sub>-Nelson Mandela</sub></p>
         </div>
-        <div style={{display:"flex" ,flex:"inline", flexDirection:"row", }}>
-        <ReactCardFlip cardZIndex="fixed" flipSpeedBackToFront="1" flipSpeedFrontToBack="1.5" containerStyle={style2} isFlipped={isFlipped} flipDirection="vertical">
-        <div className="MissionCard" style={style1} onClick={() => setIsFlipped((isFlipped) => !isFlipped)}>
-          <h2>Our Mission</h2>
-          
-        </div>
+<br/><br/>
 
-        <div style={style1} onClick={() => setIsFlipped((isFlipped) => !isFlipped)}>
-          This is the back of the card.
-          
-        </div>
-      </ReactCardFlip>
-      <ReactCardFlip cardZIndex="fixed" flipSpeedBackToFront="1" flipSpeedFrontToBack="1.5" containerStyle={style2} isFlipped={isFlipped} flipDirection="vertical">
-        <div style={style1} onClick={() => setIsFlipped((isFlipped) => !isFlipped)}>
-          <h2>Our Mission</h2>
-          
-        </div>
+       <div class="card text-center cardss">
+  
+  <div class="card-body">
+    <h2 class="card-title" class="lined">ABOUT US</h2>
+    <p class="card-text">Founded in 2021, TheCrutch an online fundraising platform that connects communities providing a tool for hospitals and NGO's to formalize their fundraising efforts and a channel for funders to find hospitals they wish to support.
 
-        <div style={style1} onClick={() => setIsFlipped((isFlipped) => !isFlipped)}>
-          This is the back of the card.
-          
-        </div>
-      </ReactCardFlip>
-      <ReactCardFlip cardZIndex="absolute" flipSpeedBackToFront="1" flipSpeedFrontToBack="1.5" containerStyle={style2} isFlipped={isFlipped} flipDirection="vertical">
-        <div style={style1} onClick={() => setIsFlipped((isFlipped) => !isFlipped)}>
-          <h2>Our Mission</h2>
-          
-        </div>
+Our team is young, diverse, and passionate about healthcare. We believe that access to good hospital equipments should not be dependent on wealth.</p>
+    
+  </div>
+  
+</div><br/>
 
-        <div style={style1} onClick={() => setIsFlipped((isFlipped) => !isFlipped)}>
-          This is the back of the card.
-          
-        </div>
-      </ReactCardFlip>  
-        </div>
-        <p>How does it works</p>
+<div class="card text-center cardss">
+  
+  <div class="card-body">
+    <h2 class="card-title" class="lined">OUR SERVICES</h2>
+    <p class="card-text">We know that you care about how effectively your donation is being used. That’s why we show you how every rupee was spent, how you made a difference, and how grateful the hospitals are in which your equipments were donated!</p>
+    
+  </div>
+  
+</div>
+<br/>
+<div class="card text-center cardss">
+  
+  <div class="card-body">
+    <h2 class="card-title" class="lined">HOW IT WORKS</h2>
+    <p class="card-text">To ensure integrity, we’re there through every step of every project. We vet all requests, purchase each item, and ship materials directly to verified locations using leading e-commerce platforms or other NGO services</p>
+    
+  </div>
+  
+</div>
+        
         </>
     )
 }
 
 export default Home
+
