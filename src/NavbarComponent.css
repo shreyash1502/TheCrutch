@@ -1,0 +1,14 @@
+.color-nav{
+    background-color: white;
+    position: sticky;
+}
+
+.Button{
+    color:#7e685a;
+    width: 50px;
+    background-color: green;
+}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+  }

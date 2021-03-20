@@ -1,0 +1,20 @@
+
+.midtext>p{
+    font-size: 50px;
+    font-weight: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ff747b ;
+    align-items: center;
+    margin-left: 19%;
+    background-image: linear-gradient((315deg, #90d5ec 0%, #fc575e 74%));
+}
+.quote>p{
+    font-size: 30px;
+    font-weight: 0;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#7e5c3e ;
+    align-items: center;
+    margin-left: 10%;
+    background-image: linear-gradient((315deg, #90d5ec 0%, #fc575e 74%));
+}
