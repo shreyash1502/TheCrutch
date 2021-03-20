@@ -7,13 +7,14 @@ import NavbarComponent from './NavbarComponent'
 import DonateComponent from './DonateComponent'
 import Header from './Header'
 import Explore from './Explore'
-
+import Profile from './Profile'
 import { auth, provider } from './firebase';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 import { Button } from 'react-bootstrap';
 function App() {
@@ -22,18 +23,19 @@ function App() {
     <div className="App">
     <Router>
     <Switch> 
-      <Route path="/" exact>
-     
-      <Home/>
-      </Route>
-      
-      
+        <Route path="/" exact>
+          <Home/>
+        </Route>
         <Route path="/donate" exact>
           <DonateComponent/>
         </Route>
         <Route path="/data" exact>
           <p>LOL</p>
         </Route>
+        <Route path="/profile" exact>
+        <Profile/>
+        </Route>
+        <Redirect to="/"/>
         </Switch>
         </Router>
       <br/>
