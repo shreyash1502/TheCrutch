@@ -1,5 +1,5 @@
 import React from "react";
-import web3 from "../src/images/img6.png";
+import web3 from "../src/img6.png";
 import NavbarComponent from './NavbarComponent';
 import { auth, provider } from './firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
