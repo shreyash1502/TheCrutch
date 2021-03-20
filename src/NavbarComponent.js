@@ -49,8 +49,13 @@ function NavbarComponent() {
      {user ? (
          <>
          <Avatar style={{ marginRight:"20px"}}src={user?.photoURL}/>
-         <Navbar.Brand style={{color:"#7e685a"}}href="#home">{user?.displayName}</Navbar.Brand>
+         <Navbar.Brand style={{color:"#7e685a"}}href="/profile">{user?.displayName}</Navbar.Brand>
       <Button style={style} type="submit" onClick={()=>auth.signOut()}>Logout</Button>
+
+      <Link style={{textDecoration: 'none'}} to="/profile">
+     <Button style={style} className="mr-2"  variant="outline-success" >Profile</Button>
+     </Link>
+
      </>
      ):(
          <>
@@ -83,4 +88,4 @@ function NavbarComponent() {
     )
 }
 
-export default NavbarComponent
+export default NavbarComponent;
