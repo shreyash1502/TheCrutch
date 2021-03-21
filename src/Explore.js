@@ -1,28 +1,34 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { auth, provider , db} from './firebase';
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import DataCard from './DataCard'
 function Explore() {
-    const handleSubmit=()=>{
-        db.collection("Available").get().then((querySnapshot) => {
-            querySnapshot.forEach((doc) => {
-                // doc.data() is never undefined for query doc snapshots
-                // console.log(doc.data().mail);
-                // console.log(doc.data().name);
-            });
-        });
+    const [equipmentList, setEquipments]=useState([]);
+    const fetchData=async()=>{
+        const res=db.collection('Available');
+        const data=await res.get();
+        data.docs.forEach(item=>{
+           // console.log(item.data());   
+            setEquipments([...equipmentList, item.data()]);
+        })
     }
-    return (
-        <div>
-            <Link to="/data">
-            <button onClick={handleSubmit}>show</button>
-            </Link>
-        </div>
+    useEffect(()=>{
+        fetchData();
+    },[])
+    console.log(equipmentList)
+    return (    
+        equipmentList && equipmentList.map(eq=>{
+            // console.log(eq.equipment);
+            // console.log(eq.description); 
+            
+            return (
+            <DataCard 
+                key={eq.age}
+                equip={eq.equipment}
+                desc={eq.description}
+            />
+            )
+        })
+     
     )
 }
 

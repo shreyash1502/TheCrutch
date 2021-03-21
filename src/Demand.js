@@ -33,7 +33,7 @@ function Demand() {
     const handleSubmit=(e)=>{
         e.preventDefault();
 
-        db.collection("Available").add({
+        db.collection("requested").add({
           mail:mail,
           name:name,
           equipment:equipment,

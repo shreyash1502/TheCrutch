@@ -5,6 +5,7 @@ import { auth, provider } from './firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 const Profile = () =>{
+  const[user,loading]=useAuthState(auth);
 	return(
 		<>
 		<NavbarComponent/>
@@ -18,7 +19,7 @@ const Profile = () =>{
     </div>
     <div class="col-md-8 text-center">
       <div class="card-body">
-        <h1 class="card-title">Dhruvil </h1>
+        <h1 style={{fontSize:"50px"}} class="card-title">{user.displayName} </h1>
         <p class="card-text">
         <center><h4>
         Age: 21<br/>

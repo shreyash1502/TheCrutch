@@ -30,9 +30,7 @@ function App() {
         <Route path="/donate" exact>
           <DonateComponent/>
         </Route>
-        <Route path="/data" exact>
-          <p>LOL</p>
-        </Route>
+       
         <Route path="/profile" exact>
         <Profile/>
         </Route>

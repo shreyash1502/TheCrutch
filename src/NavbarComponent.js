@@ -78,7 +78,7 @@ function NavbarComponent() {
       <Link style={{textDecoration: 'none'}} to="/">
      <Button style={style} className="mr-2"  variant="outline-success">Home</Button>
      </Link>
-       
+   
     </Nav>
     {/* <Form inline>
       <FormControl style={{color:"#7e685a"}}type="text" placeholder="Search" className="mr-sm-2" />

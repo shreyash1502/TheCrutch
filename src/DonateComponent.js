@@ -89,7 +89,7 @@ function DonateComponent() {
   </Form.Group>
   <Form.Group controlId="formBasicPassword">
     <Form.Label>Age</Form.Label>
-    <Form.Control type="text" placeholder="Age" />
+    <Form.Control type="Number" placeholder="Age" />
   </Form.Group>
   
     
