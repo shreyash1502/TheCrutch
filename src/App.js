@@ -8,6 +8,7 @@ import DonateComponent from './DonateComponent'
 import Header from './Header'
 import Explore from './Explore'
 import Profile from './Profile'
+import Demand from './Demand'
 import { auth, provider } from './firebase';
 import {
   BrowserRouter as Router,
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route path="/profile" exact>
         <Profile/>
+        </Route>
+        <Route path="/demand" exact>
+        <Demand/>
         </Route>
         <Redirect to="/"/>
         </Switch>

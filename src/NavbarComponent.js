@@ -68,11 +68,13 @@ function NavbarComponent() {
      </Link>
        
 
-     
+     <Link style={{textDecoration: 'none'}} to="/demand">
+     <Button style={style} className="mr-2"  variant="outline-success" onClick={notify}>Demand</Button>
+     </Link>
     
       
       
-      <Button style={style}  className="mr-2" variant="outline-success">Demand</Button>
+      
       <Link style={{textDecoration: 'none'}} to="/">
      <Button style={style} className="mr-2"  variant="outline-success">Home</Button>
      </Link>
