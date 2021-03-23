@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "thecrutch-82557"
+    "prod": "thecrutch-82557",
+    "dev": "thecrutch-82557"
   }
 }

@@ -68,15 +68,7 @@ Our team is young, diverse, and passionate about healthcare. We believe that acc
   
 </div><br/>
 
-<div class="card text-center cardss">
-  
-  <div class="card-body">
-    <h2 class="card-title" class="lined">OUR SERVICES</h2>
-    <p class="card-text">We know that you care about how effectively your donation is being used. That’s why we show you how every rupee was spent, how you made a difference, and how grateful the hospitals are in which your equipments were donated!</p>
-    
-  </div>
-  
-</div>
+
 <br/>
 <div class="card text-center cardss">
   
