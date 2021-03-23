@@ -9,16 +9,7 @@ on:
 jobs:
   deploy:
     name: Build & Deployment
-name: Firebase deployment
-
-on:
-  push:
-    branches:
-      -main
-jobs:
-  deploy:
-    name:Build and depliy
-runs-on : ubuntu-latest
+    runs-on : ubuntu-latest
 
     steps:
       - name : get the source code
