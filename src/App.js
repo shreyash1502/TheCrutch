@@ -34,6 +34,9 @@ function App() {
         <Route path="/profile" exact>
         <Profile/>
         </Route>
+        <Route path='/data'>
+          <Explore/>
+        </Route>
         <Route path="/demand" exact>
         <Demand/>
         </Route>

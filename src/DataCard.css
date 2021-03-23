@@ -1,0 +1,30 @@
+.card{
+    padding:3px;
+    margin-left: 30%;
+    width:20rem;
+    height:200px;
+    margin-bottom: 3px;
+    display: inline-block;
+    
+}
+.card>:hover{
+    box-shadow: 2px 2px 2px 2px  rgb(240, 101, 194);
+}
+.card>p{
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    margin-left:30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card>h4{
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    margin-left:40%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card>button{
+    background-color: rgb(251, 140, 255);
+    margin-left: ;
+}

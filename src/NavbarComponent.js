@@ -78,6 +78,9 @@ function NavbarComponent() {
       <Link style={{textDecoration: 'none'}} to="/">
      <Button style={style} className="mr-2"  variant="outline-success">Home</Button>
      </Link>
+     <Link style={{textDecoration: 'none'}} to="/data">
+     <Button style={style} className="mr-2"  variant="outline-success">Explore  </Button>
+     </Link>
    
     </Nav>
     {/* <Form inline>
