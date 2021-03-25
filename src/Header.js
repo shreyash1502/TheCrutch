@@ -1,10 +1,11 @@
 import React from 'react'
 import './Header.css'
+
 function Header() {
     return (
         <div>
             <h1>
-                <span className="gradient-text">The Crutch.</span>
+                <img src=""/>
             </h1>
         </div>
     )

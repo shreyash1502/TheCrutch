@@ -66,7 +66,9 @@ function NavbarComponent() {
         <Link style={{textDecoration: 'none'}} to="/donate">
      <Button style={style} className="mr-2"  variant="outline-success" onClick={notify}>Donate</Button>
      </Link>
-       
+     <Link style={{textDecoration: 'none'}} to="/newhome">
+     <Button style={style} className="mr-2"  variant="outline-success" onClick={notify}>new home</Button>
+     </Link>
 
      <Link style={{textDecoration: 'none'}} to="/demand">
      <Button style={style} className="mr-2"  variant="outline-success" onClick={notify}>Demand</Button>

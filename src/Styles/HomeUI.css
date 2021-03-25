@@ -1,0 +1,135 @@
+body{
+    background-color: #12232E;
+}
+
+/* .doc{
+    background-image: url("../Assets/undraw_doctors_hwty\ 1.svg");
+position: absolute;
+width: 650px;
+height: 534px;
+left: 745px;
+top: 212px;
+    
+} */
+.contain{
+    position: relative;
+    left: 0;
+}
+.hmbutton{
+    background-image: url("../Assets/undraw_medicine_b1ol\ 3.png");
+    position: absolute;
+width: 179px;
+height: 135px;
+left: 4px;
+top: 3px;
+}
+.titleHome{
+    background-image: url("../Assets/title.svg");
+    
+    position: absolute;
+    width: 220px;
+    height: 89px;
+    left: 202px;
+    top: 9px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 55px;
+
+color: #F2F2F2;
+}
+.back{
+    background-image: url("../Assets/Group.svg");
+    position: relative;
+    width:955px;    
+    height: 1000px;   
+    left: 32.47%;
+    right: -24.93%;
+    top: -6.07%;
+    bottom: 74.53%;
+    
+    
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.mission{
+    background-image: url("../Assets/mssionText.svg");
+    position: absolute;
+width: 373px;
+height: 261px;
+left: 48px;
+top: 331px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 74px;
+
+color: #FFFFFF;
+}
+.welcometext{
+    background-image: url("../Assets/Want\ to\ be\ a\ part\ of\ this\ great\ initiative\ of\ ours.\ Sign\ up\ now\ and\ help\ those\ in\ need.svg");
+    position: absolute;
+    width: 541px;
+    height: 66px;
+    left: 44px;
+    top: 716px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 40px;
+    
+    color: #FFFBFB;
+    
+}
+.knowmore{
+    background-image: url("../Assets/knowmorebut.svg");
+    
+position: absolute;
+width: 280px;
+height: 64px;
+left: 45px;
+top: 922px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 100px;
+}
+.howitworks{
+    background-image: url("../Assets/How\ it\ Works.svg");
+    position: relative;
+    left: 18.97%;
+    right: 19.43%;
+    top: 0%;
+    bottom: 46.15%;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 101px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+.how>h1{
+    margin:0px !important;
+    position: relative;
+    left: 18.97%;
+    right: 19.43%;
+    top: 0%;
+    bottom: 46.15%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 101px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

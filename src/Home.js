@@ -5,7 +5,6 @@ import NavbarComponent from './NavbarComponent';
 import CarouselComponent from './CarouselComponent';
 import Header from './Header'
 import './Home.css'
-import hospitalpic from './alex-mecl-oj6nOfh9Obo-unsplash.jpg'
 import ReactCardFlip from 'react-card-flip';
 
 const style1={

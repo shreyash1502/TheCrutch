@@ -1,11 +1,11 @@
 import React from 'react'
-import poorppl from './poorppl.jpg'
-import childpic from './shravan-k-acharya-cuStP_i-xPg-unsplash.jpg'
+import poorppl from './Assets/poorppl.jpg'
+import childpic from './Assets/shravan-k-acharya-cuStP_i-xPg-unsplash.jpg'
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import { Carousel } from 'react-bootstrap';
 import './CarouselComponent.css'
-import stetho from './pina-messina-iIDiRMITYik-unsplash.jpg'
-import villagepic from './theodore-goutas-aeq3jJj0sUw-unsplash.jpg'
+import stetho from './Assets/pina-messina-iIDiRMITYik-unsplash.jpg'
+import villagepic from './Assets/theodore-goutas-aeq3jJj0sUw-unsplash.jpg'
 function CarouselComponent() {
     return (
         
