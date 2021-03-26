@@ -41,9 +41,9 @@ line-height: 55px;
 color: #F2F2F2;
 }
 .back{
-    background-image: url("../Assets/Group.svg");
+    background-image: url("../Assets/newvec3.svg");
     position: relative;
-    width:955px;    
+    width: 965px;    
     height: 1000px;   
     left: 32.47%;
     right: -24.93%;
@@ -100,36 +100,85 @@ border-radius: 100px;
 }
 .howitworks{
     background-image: url("../Assets/How\ it\ Works.svg");
-    position: relative;
-    left: 18.97%;
-    right: 19.43%;
-    top: 0%;
-    bottom: 46.15%;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 74px;
-    line-height: 101px;
-    text-align: center;
-
-    color: #FFFFFF;
-
+    position: absolute;
+    width: 1002px;
+    height: 180px;
+    left: 50px;
+    top: 1237px;
+    
 
 }
-.how>h1{
-    margin:0px !important;
+.component4{
+    background-image: url("../Assets/Component\ 4.svg");
+    position: absolute;
+width: 500px;
+height: 450px;
+left: 90px;
+top: 1437px;
+}
+p{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top:1900px;
+    left:130px;
+}
+.component5{
+    background-image: url("../Assets/Component\ 5.svg");
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 900px;
+    top: 1437px;
+}
+.seekservice{
+    background-image: url("../Assets/seek.svg");
     position: relative;
-    left: 18.97%;
-    right: 19.43%;
-    top: 0%;
-    bottom: 46.15%;
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 74px;
-    line-height: 101px;
-    text-align: center;
+    top: 2000px;
+    left:100px;
+    bottom:10%;
+    right:10%;
 
-    color: #FFFFFF;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.comp6{
+    background-image: url("../Assets/Component\ 6.svg");
+    position: absolute;
+    width: 524px;
+    height: 650px;
+    left: 153px;
+    top: 2100px;
+
+}
+.comp6>p{
+ 
+color: #FFFFFF;
+position: absolute;
+left: 12.42%;
+right: 13.04%;
+top: 1000px;
+bottom: 16.07%;
+
+border: 5px solid #68CA44;
+transform: rotate(0.16deg);
+    position: absolute;
+    left: 30%;
+    top: 700px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 71px;
+width: 1000px;
+text-align: center;
+
+
 }
