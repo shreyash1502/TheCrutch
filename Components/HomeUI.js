@@ -13,6 +13,13 @@ function HomeUI() {
             <div className="titleHome"></div>
                <div className="mission">
                </div>
+               
+                  <div className="Home">Home</div>
+                  <div className="Explore">Explore</div>
+                  <div className="Donate">Donate</div>
+                  <div className="Request">Request</div>
+                  <div className="Login">Login</div>
+               
                <div className="openpic"></div>
                <div className="welcometext"></div>
               <div className="knowmore"></div>
@@ -31,7 +38,12 @@ function HomeUI() {
                 <div className="component7">
                   
                 </div>
+                <div className="rectangle10">
+                
+                </div>
+                <div className="component12">
 
+                </div>
         </div>
     )
 }
