@@ -1,0 +1,311 @@
+body{
+    background-color: #12232E;
+    overflow-x: hidden;
+}
+
+/* .doc{
+    background-image: url("../Assets/undraw_doctors_hwty\ 1.svg");
+position: absolute;
+width: 650px;
+height: 534px;
+left: 745px;
+top: 212px;
+    
+} */
+.contain{
+    position: relative;
+    left: 0;
+}
+.hmbutton{
+    background-image: url("../Assets/undraw_medicine_b1ol\ 3.png");
+    position: absolute;
+width: 179px;
+height: 135px;
+left: 64px;
+top: 3px;
+}
+.titleHome{
+    background-image: url("../Assets/title.svg");
+    
+    position: absolute;
+    width: 220px;
+    height: 89px;
+    left: 262px;
+    top: 9px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 55px;
+
+color: #F2F2F2;
+}
+.back{
+    background-image: url("../Assets/newvec3.svg");
+    position: relative;
+    width: 965px;    
+    height: 1000px;   
+    left: 32.47%;
+    right: -24.93%;
+    top: -6.07%;
+    bottom: 74.53%;
+    
+    
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.mission{
+    background-image: url("../Assets/mssionText.svg");
+    position: absolute;
+width: 373px;
+height: 261px;
+left: 108px;
+top: 331px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 74px;
+
+color: #FFFFFF;
+}
+.welcometext{
+    background-image: url("../Assets/Want\ to\ be\ a\ part\ of\ this\ great\ initiative\ of\ ours.\ Sign\ up\ now\ and\ help\ those\ in\ need.svg");
+    position: absolute;
+    width: 541px;
+    height: 66px;
+    left: 104px;
+    top: 716px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 40px;
+    
+    color: #FFFBFB;
+    
+}
+.knowmore{
+    background-image: url("../Assets/knowmorebut.svg");
+    
+position: absolute;
+width: 280px;
+height: 64px;
+left: 105px;
+top: 922px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 100px;
+}
+.howitworks{
+    background-image: url("../Assets/How\ it\ Works.svg");
+    position: absolute;
+    width: 1002px;
+    height: 180px;
+    left: 50px;
+    top: 1237px;
+    
+
+}
+.component4{
+    background-image: url("../Assets/Component\ 4.svg");
+    position: absolute;
+width: 500px;
+height: 450px;
+left: 90px;
+top: 1437px;
+}
+p{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top:1900px;
+    left:130px;
+}
+.component5{
+    background-image: url("../Assets/Component\ 5.svg");
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 810px;
+    top: 1437px;
+}
+.seekservice{
+    background-image: url("../Assets/seek.svg");
+    position: relative;
+    top: 2000px;
+    left:100px;
+    bottom:10%;
+    right:10%;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.comp6{
+    background-image: url("../Assets/Component\ 6.svg");
+    position: absolute;
+    width: 524px;
+    height: 650px;
+    left: 153px;
+    top: 2300px;
+
+}
+.comp6>p{
+ 
+color: #FFFFFF;
+position: absolute;
+left: 12.42%;
+right: 13.04%;
+top: 1000px;
+bottom: 16.07%;
+
+border: 5px solid #68CA44;
+transform: rotate(0.16deg);
+    position: absolute;
+    left: 30%;
+    top: 700px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 71px;
+width: 1000px;
+text-align: center;
+
+
+}
+.component7{
+    background-image: url("../Assets/Property 1=Default.svg");
+    
+    position: absolute;
+width: 524px;
+height: 650px;
+left: 720px;
+top: 2300px;
+}
+
+
+.component9{
+    background-image: url("../Assets/Component\ 9.svg");
+    position: absolute;
+width: 974px;
+height: 112px;
+left: 252px;
+top: 2090px;
+}
+.openpic{
+    background-image: url("../Assets/undraw_doctors_hwty\ 1.svg");
+    position: absolute;
+width: 650px;
+height: 534px;
+left: 649px;
+top: 138px;   
+}
+
+.component12{
+    background-image: url("../Assets/Component\ 12.svg");
+    position: absolute;
+left: 252px;
+right: 77.85%;
+top: 2100px;
+
+}
+.Home{
+    position: absolute;
+width: 793px;
+height: 48px;
+left: 271px;
+top: 43px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+
+color: #12232E;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Explore{
+    position: absolute;
+width: 793px;
+height: 48px;
+left: 401px;
+top: 43px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+
+color: #12232E;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Donate{
+    position: absolute;
+width: 793px;
+height: 48px;
+left: 531px;
+top: 43px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+
+color: #12232E;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Request{
+    position: absolute;
+width: 793px;
+height: 48px;
+left: 661px;
+top: 43px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+
+color: #12232E;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Login{
+    position: absolute;
+width: 791px;
+height: 48px;
+left: 860px;
+top: 43px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+
+color: #12232E;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
